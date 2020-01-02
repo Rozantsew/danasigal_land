@@ -1,2 +1,2 @@
 # danasigal_land
-https://github.com/Rozantsew/danasigal_land/src/index.html
+https://rozantsew.github.io/danasigal_land/src/index.html
