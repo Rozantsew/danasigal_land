@@ -1,0 +1,80 @@
+body {
+  background-color: transparent !important;
+}
+
+.navbar {
+  width: 100%;
+  background: none !important;
+}
+
+@media (max-width: 34em) {
+  .navbar {
+    background-color: transparent !important;
+  }
+}
+
+.navbar .navbar-toggler {
+  cursor: pointer;
+  outline: 0;
+}
+
+.navbar .nav-link, .navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+}
+
+@media (max-width: 34em) {
+  .navbar .nav-link {
+    color: lightgrey;
+  }
+}
+
+.navbar .nav-item {
+  padding: 0 1rem;
+}
+
+@media (max-width: 34em) {
+  .navbar .nav-item {
+    padding: 0 !important;
+    color: lightgrey;
+  }
+}
+
+.hero {
+  background-color: #67DDB6;
+}
+
+.picture {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.woman_stand {
+  vertical-align: bottom;
+  max-width: 517px;
+}
+
+.first__wave, .second__wave {
+  width: 100%;
+  background-size: cover;
+}
+
+.first__wave {
+  position: absolute !important;
+  z-index: 0;
+  top: 0,1px;
+  max-height: 699px;
+  max-width: 100%;
+}
+
+.second__wave {
+  position: absolute !important;
+  z-index: 0;
+  top: 0,1px;
+  max-height: 699px;
+  max-width: 1920;
+}
+/*# sourceMappingURL=main.css.map */
