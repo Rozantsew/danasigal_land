@@ -149,6 +149,16 @@ body html {
     line-height: 25px;
   }
 }
+.hero .header_text .social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 110px;
+  margin-top: 6rem;
+}
+.hero .header_text .social img {
+  max-width: 30px;
+}
 .hero .wrapper {
   position: relative;
 }

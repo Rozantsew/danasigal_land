@@ -150,6 +150,17 @@ body {
                     line-height: 25px;
                 }
           }
+
+          .social {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              max-width: 110px;
+              margin-top: 6rem;
+            img {
+                max-width: 30px;
+            }
+          }
         }
 
         .wrapper {
