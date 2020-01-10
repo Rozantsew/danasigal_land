@@ -6,7 +6,9 @@ body {
     background-color: transparent !important;
     color: #fff;
     font-family: "Helvetica";
-    
+    html {
+        font-family: "Helvetica";
+    }
 }
 
 .navbar {
@@ -111,7 +113,7 @@ body {
             max-width: 100%;
             margin-top: 5rem;
             @media(min-width: 1440px) {
-                margin-top: 11rem;
+                margin-top: 10rem;
             }
             @media(max-width: 991px) {
                 max-width: 70%;
