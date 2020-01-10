@@ -1,7 +1,11 @@
+// Watch sass for this file command
+//   sass --watch src/assets/scss:src/assets/css
+
+
 body {
     background-color: transparent !important;
     color: #fff;
-    font-family: "Helvetica Neue";
+    font-family: "Helvetica";
     
 }
 
@@ -58,8 +62,14 @@ body {
         bottom: 0.1px;
         padding: 0px 10px 0px 10px;
     }
-    position: relative;
-    height: 100vh;
+    // --  Hero background
+        position: relative;
+        height: 100vh;
+        background-color: #67DDB6;
+        z-index: -1;    
+        min-width: 325px !important;
+        background-size: cover;
+
     .first__wave, .second__wave  {
         // position: absolute !important;
         height: 100vh;
@@ -93,16 +103,16 @@ body {
         }
     }
 
-    background-color: #67DDB6;
-    z-index: -1;    
-    min-width: 325px !important;
-    background-size: cover;
+   
         .header_text {
             display: flex;
             flex-direction: column;
             justify-content: center;
             max-width: 100%;
             margin-top: 5rem;
+            @media(min-width: 1440px) {
+                margin-top: 11rem;
+            }
             @media(max-width: 991px) {
                 max-width: 70%;
                 padding: 0px 20px;
