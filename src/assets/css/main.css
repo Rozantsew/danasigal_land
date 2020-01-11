@@ -6,6 +6,9 @@ body {
 body html {
   font-family: "Helvetica";
 }
+body html h2 {
+  font-weight: 400;
+}
 
 .navbar {
   padding-top: 20px;
@@ -188,6 +191,39 @@ body html {
     width: 450px;
     display: none;
   }
+}
+
+section {
+  padding: 60px 0px;
+  color: black;
+}
+section img {
+  max-width: 100%;
+}
+section .image__box {
+  margin-top: 20%;
+  width: 500px;
+}
+section .text__box h2 {
+  font-size: 42px;
+}
+section .text__box h3 {
+  font-size: 28px;
+  color: #605F5F;
+}
+section .text__box h3 span {
+  border-bottom: 2px solid #6DEEC3;
+  padding-bottom: 15px;
+}
+section .text__box p {
+  color: #605F5F;
+}
+section .text__box .decore {
+  position: absolute;
+  left: 430px;
+  top: 487px;
+  width: 40%;
+  z-index: -1;
 }
 
 /*# sourceMappingURL=main.css.map */
